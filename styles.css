@@ -1,0 +1,95 @@
+.bg-dark {
+
+ background-color: #D90404!important;
+
+}
+.teamname {
+  font-style: italic;
+  font-size: 5em;
+  color: #000000;
+}
+.page {
+  background-color: #EDEEF0;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width:100%;
+}
+.scoresbar {
+  display: flex;
+  height: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+
+}
+.scoresbar1 {
+  height: 100px;
+  padding-right: 10px;
+  display: flex;
+  border-style: solid;
+}
+.articles {
+  margin-top: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.vl {
+  border-style: solid;
+  margin-left: 10px;
+  height: 95px;
+}
+.articlei {
+  margin-top: 50px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.articlehead {
+  max-width: 100%;
+  height: auto;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.scorebox
+{
+  width: 25%;
+  font-size: .5em;
+  padding: 25px 25px 25px 25px;
+  border-width: 3px;
+  background-color: #EDEEF0;
+  border-style: solid;
+  flex-basis: 25%;
+  border-color: #F29F05;
+
+
+}
+@media screen and (min-width: 800px) {
+  .scorebox {
+    flex: 1;
+  }
+  .scoresbar1 {
+    flex:1;
+
+  }
+
+}
